@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".InfoFragment">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:ignore="UselessParent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/total_users"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/totalUsersInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/total_transactions"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/totalTransactionsInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/total_profit"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/totalProfitInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/koalko_total_profit"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/koalkoTotalProfitInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/mizentui_total_profit"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/mizentuiTotalProfitInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/fliantress_total_profit"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical"
+				android:layout_marginStart="10dp" />
+
+			<TextView
+				android:id="@+id/fliantressTotalProfitInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="20sp"
+				android:textColor="@color/green"
+				android:gravity="start"
+				android:layout_gravity="center_vertical" />
+
+		</LinearLayout>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="@color/green" />
+
+	</LinearLayout>
+
+</FrameLayout>

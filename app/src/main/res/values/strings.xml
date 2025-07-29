@@ -1,0 +1,15 @@
+<resources>
+	<string name="app_name" translatable="false">Schedule Finance</string>
+	<string name="total_users">"Total Users: "</string>
+	<string name="total_transactions">"Total Transactions: "</string>
+	<string name="total_profit">"Total Profit: "</string>
+	<string name="koalko_total_profit">"Koalko Total Profit: "</string>
+	<string name="mizentui_total_profit">"MiZentUi Total Profit: "</string>
+	<string name="fliantress_total_profit">"Fliantress Total Profit: "</string>
+	<string name="open">Open</string>
+	<string name="close">Close</string>
+	<string name="users">Users</string>
+	<string name="transactions">Transactions</string>
+	<string name="info">Info</string>
+	<string name="unban">Unban</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<!-- Base application theme. -->
+	<style name="Base.Theme.ScheduleFinance" parent="Theme.AppCompat.DayNight.DarkActionBar">
+		<!-- Customize your dark theme here. -->
+		<item name="colorPrimary">@color/green</item>
+		<item name="android:textColor">#FFFFFFFF</item>
+	</style>
+</resources>
